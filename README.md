@@ -5,6 +5,7 @@
 AWS cost monitoring in your Mac menu bar. Apple silicon, macOS 13 or later.
 
 ```sh
+brew tap pratik-mahalle/tap
 brew install --cask pratik-mahalle/tap/cloudwake
 ```
 
@@ -15,4 +16,4 @@ AWS CLI profile to connect a real account. Cloudwake opens in demo mode first.
 This early build is ad-hoc signed and not Apple-notarized. macOS may require approval in
 System Settings → Privacy & Security. The cask does not disable Gatekeeper or remove quarantine.
 
-[Product page](https://pratikmahalle.com/cloudwake) · [Source and setup](https://github.com/pratik-mahalle/infralive)
+[Source and setup](https://github.com/pratik-mahalle/infralive)
