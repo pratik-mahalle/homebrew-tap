@@ -1,11 +1,11 @@
 cask "cloudwake" do
-  version "1.2.0"
-  sha256 "05a4c0c961bfc4b49877fe1533bdd1a4f50287876942392043822a831abe0d53"
+  version "1.2.1"
+  sha256 "5902d6423087b8c15956d2573c68bdee2c066c045b1ebcfa17b9fc3504bdec70"
 
-  url "https://github.com/pratik-mahalle/infralive/releases/download/v#{version}/Cloudwake-#{version}-macos-arm64.zip"
+  url "https://github.com/pratik-mahalle/cloudwake-releases/releases/download/v#{version}/Cloudwake-#{version}-macos-arm64.zip"
   name "Cloudwake"
   desc "AWS cost, resource activity, and savings monitor for your menu bar"
-  homepage "https://github.com/pratik-mahalle/infralive"
+  homepage "https://pratikmahalle.com/cloudwake"
 
   depends_on arch: :arm64
   depends_on macos: :ventura
