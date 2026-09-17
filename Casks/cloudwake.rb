@@ -1,6 +1,6 @@
 cask "cloudwake" do
-  version "0.3.2"
-  sha256 "fbf260ea40c47b5120e26c6fb3f1930b2aa38f0ced867f4efa20c48a1d330e6b"
+  version "0.3.3"
+  sha256 "61630177a5e27a31fd4b7e1f974c9020acdeefcd218d34663c40b169beabd1a3"
 
   url "https://github.com/pratik-mahalle/infralive/releases/download/v#{version}/Cloudwake-#{version}-macos-arm64.zip"
   name "Cloudwake"
