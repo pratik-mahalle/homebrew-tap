@@ -1,6 +1,6 @@
 cask "cloudwake" do
-  version "1.1.0"
-  sha256 "642a59a3383cc1b1fb8ce14088baf95645b2c88de6d778f65042d3f4a306d536"
+  version "1.1.1"
+  sha256 "0719a45a9ef27ab47d79bddc73c949308ad8a9bb68a83caf53dd7a3538f3c94e"
 
   url "https://github.com/pratik-mahalle/infralive/releases/download/v#{version}/Cloudwake-#{version}-macos-arm64.zip"
   name "Cloudwake"
@@ -15,6 +15,6 @@ cask "cloudwake" do
   caveats <<~EOS
     This Cloudwake build is ad-hoc signed and is not Apple-notarized.
     macOS may require approval in System Settings > Privacy & Security.
-    Cloudwake starts with demo data. Choose an AWS profile or paste credentials in Settings. SSO is optional.
+    Cloudwake opens AWS account setup on first launch. Choose a profile or paste credentials. SSO is optional.
   EOS
 end
