@@ -2,6 +2,7 @@ class Otelkit < Formula
   desc "Find drift across OpenTelemetry Collector configs and keep them in sync"
   homepage "https://github.com/pratik-mahalle/otelkit"
   version "0.1.0"
+  license "MIT"
 
   base = "https://github.com/pratik-mahalle/otelkit/releases/download/v0.1.0"
   on_macos do
